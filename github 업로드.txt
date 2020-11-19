@@ -1,0 +1,28 @@
+1. https://gitforwindows.org/ 에서 GitBash 설치
+   (아마 깔아서 안해도 상관없을 것 같긴함.)
+
+2. github.com에서 repository 생성
+
+3. 새로운 폴더 생성(저장하고 싶은 곳)
+
+4. Root Folder 연결
+   
+   3에서 만든 폴더를 우클릭해서 Git Bash Here 클릭
+  
+   bash창에서 $ git init 입력 -> 만든 폴더 안에 .git 이라는 폴더가 생김 (숨김파일로 되어있음)
+
+   $ git remote add origin 자신의 레포지티 주소
+
+5. $ git pull origin master -> 레포지티 주소에 있는 자료를 가져옴.(안해도됨)
+
+6. $ git status -> 레포지티 저장소와 폴더간 싱크 상태 비교
+
+7. $ git add . -> 동기화? 되어 있지 않은 모든 파일을 tracking함
+
+8. $ git commit -m "레포지티에 저장되는 이름(주제)" ex) "Hello Github"
+
+9. $ git push origin master -> github에 올리는 과정 로그인 하라는 창이 뜨고 로그인을 하면됨
+
+끝
+
+   
